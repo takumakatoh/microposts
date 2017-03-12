@@ -7,4 +7,5 @@ root to: 'static_pages#home'
   #get 'edit',to:'users#edit'
   get    'edit', to: 'users#edit'
   resources :users
+  resources :microposts
 end
